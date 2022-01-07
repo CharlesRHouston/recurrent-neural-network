@@ -28,9 +28,9 @@ Class attributes:
 * n_a - dimension of hidden units
 
 Class optimize method:
-* data - list of batches e.g. [[x1, y1], [x2, y2], ...]; xi: three dimensional numpy array (n_x, m, T_x); yi: three dimensional numpy array (n_y, m, T_y)
+* data - list of batches e.g. [[x1, y1], [x2, y2], ...] where xi and yi are three dimensional numpy arrays (n_x/n_y, m, T_x)
 * epochs - number of times to pass through data; default = 20
-* learn - learning rate, alpha; default = 0.01
+* learn - learning rate; default = 0.01
 * max_grad - gradient clipping value; default = 10
 
 ### References 
