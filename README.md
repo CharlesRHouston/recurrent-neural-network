@@ -24,10 +24,10 @@ Dimensions:
 * **ba**:  (n_a, 1)
 * **by**:  (n_y, 1)
 
-Class attributes:
+RecurrentNeuralNetwork attributes:
 * **n_a** - dimension of hidden units
 
-Class optimize method:
+RecurrentNeuralNetwork.optimize method:
 * **data** - list of batches e.g. [[x1, y1], [x2, y2], ...] where xi and yi are three dimensional numpy arrays (n_x/n_y, m, T_x)
 * **epochs** - number of times to pass through data; default = 20
 * **learn** - learning rate; default = 0.01
